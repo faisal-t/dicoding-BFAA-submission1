@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="bottom"
+    tools:context=".SplashScreen">
+
+
+        <FrameLayout
+            android:layout_marginBottom="330dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/splash_screen"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_marginTop="50dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:text="Submission 1 Dicoding"/>
+
+
+        </FrameLayout>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_marginBottom="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:textAlignment="center"
+        android:text="Copyright © 2020 - Muhammad Faisal Mahromi."/>
+
+
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
